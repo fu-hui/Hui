@@ -12,14 +12,14 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class MainActivity extends AppCompatActivity {
+public class TestActivity extends AppCompatActivity {
     private TextView msgTextView;
     private static final String AM_URL = "http://152.136.192.15:8080/ping";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_test);
 
         msgTextView = findViewById(R.id.tv_msg);
         Button msgButton = findViewById(R.id.bt_msg);

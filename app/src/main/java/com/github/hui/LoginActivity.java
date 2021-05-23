@@ -49,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
 
                 Log.i(TAG, "user login success");
-                startActivity(new Intent(this, MainActivity.class));
+                startActivity(new Intent(this, TestActivity.class));
             }).start();
         });
 
